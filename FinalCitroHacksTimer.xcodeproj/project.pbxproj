@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		038A28DF2A644CEC00E66C19 /* FinalCitroHacksTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A28DE2A644CEC00E66C19 /* FinalCitroHacksTimerApp.swift */; };
-		038A28E12A644CEC00E66C19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A28E02A644CEC00E66C19 /* ContentView.swift */; };
 		038A28E32A644CF000E66C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038A28E22A644CF000E66C19 /* Assets.xcassets */; };
 		038A28E62A644CF000E66C19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038A28E52A644CF000E66C19 /* Preview Assets.xcassets */; };
+		038A28F02A644D2A00E66C19 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A28EF2A644D2A00E66C19 /* TimerViewModel.swift */; };
+		038A28F22A644D3600E66C19 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A28F12A644D3600E66C19 /* TimerModel.swift */; };
+		038A28F42A644D4600E66C19 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A28F32A644D4600E66C19 /* TimerView.swift */; };
+		038A28F62A644D6100E66C19 /* TimerCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A28F52A644D6100E66C19 /* TimerCreate.swift */; };
+		038A28F82A644D6F00E66C19 /* PlantGrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A28F72A644D6F00E66C19 /* PlantGrow.swift */; };
+		038A28FA2A644E1300E66C19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038A28F92A644E1300E66C19 /* Images.xcassets */; };
+		03B63E882A647BE8009B52AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B63E872A647BE8009B52AD /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		038A28DB2A644CEC00E66C19 /* FinalCitroHacksTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalCitroHacksTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038A28DE2A644CEC00E66C19 /* FinalCitroHacksTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalCitroHacksTimerApp.swift; sourceTree = "<group>"; };
-		038A28E02A644CEC00E66C19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		038A28E22A644CF000E66C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		038A28E52A644CF000E66C19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		038A28EF2A644D2A00E66C19 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		038A28F12A644D3600E66C19 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		038A28F32A644D4600E66C19 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		038A28F52A644D6100E66C19 /* TimerCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCreate.swift; sourceTree = "<group>"; };
+		038A28F72A644D6F00E66C19 /* PlantGrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantGrow.swift; sourceTree = "<group>"; };
+		038A28F92A644E1300E66C19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03B63E872A647BE8009B52AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				038A28DE2A644CEC00E66C19 /* FinalCitroHacksTimerApp.swift */,
-				038A28E02A644CEC00E66C19 /* ContentView.swift */,
+				038A28EE2A644D1400E66C19 /* TimerViewModels */,
+				038A28ED2A644D0B00E66C19 /* TimerModel */,
+				038A28EC2A644D0000E66C19 /* Main */,
+				038A29122A6476D800E66C19 /* Riya's Files */,
 				038A28E22A644CF000E66C19 /* Assets.xcassets */,
+				038A28F92A644E1300E66C19 /* Images.xcassets */,
 				038A28E42A644CF000E66C19 /* Preview Content */,
 			);
 			path = FinalCitroHacksTimer;
@@ -65,6 +81,40 @@
 				038A28E52A644CF000E66C19 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		038A28EC2A644D0000E66C19 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				038A28F32A644D4600E66C19 /* TimerView.swift */,
+				038A28F52A644D6100E66C19 /* TimerCreate.swift */,
+				038A28F72A644D6F00E66C19 /* PlantGrow.swift */,
+				03B63E872A647BE8009B52AD /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		038A28ED2A644D0B00E66C19 /* TimerModel */ = {
+			isa = PBXGroup;
+			children = (
+				038A28F12A644D3600E66C19 /* TimerModel.swift */,
+			);
+			path = TimerModel;
+			sourceTree = "<group>";
+		};
+		038A28EE2A644D1400E66C19 /* TimerViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				038A28EF2A644D2A00E66C19 /* TimerViewModel.swift */,
+			);
+			path = TimerViewModels;
+			sourceTree = "<group>";
+		};
+		038A29122A6476D800E66C19 /* Riya's Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Riya's Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038A28FA2A644E1300E66C19 /* Images.xcassets in Resources */,
 				038A28E62A644CF000E66C19 /* Preview Assets.xcassets in Resources */,
 				038A28E32A644CF000E66C19 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				038A28E12A644CEC00E66C19 /* ContentView.swift in Sources */,
+				038A28F42A644D4600E66C19 /* TimerView.swift in Sources */,
+				038A28F22A644D3600E66C19 /* TimerModel.swift in Sources */,
+				03B63E882A647BE8009B52AD /* ContentView.swift in Sources */,
+				038A28F82A644D6F00E66C19 /* PlantGrow.swift in Sources */,
+				038A28F02A644D2A00E66C19 /* TimerViewModel.swift in Sources */,
 				038A28DF2A644CEC00E66C19 /* FinalCitroHacksTimerApp.swift in Sources */,
+				038A28F62A644D6100E66C19 /* TimerCreate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
